@@ -446,7 +446,7 @@
 			<field name="view_mode">form,tree</field>
 		</record>
 
-		<menuitem name="CW-Store" id="menu_cstore_root" sequence="1"/>
+		<menuitem name="CW-Store" id="menu_cstore_root" sequence="55"/>
 		  <menuitem name="Configuration" parent="menu_cstore_root" id="menu_cstore_cfg_root"/>
 		    <menuitem name="Loans Settings" parent="menu_cstore_cfg_root" id="menu_cstore_cfg_loan"/>
 		      <menuitem name="KYC Proof Type" parent="menu_cstore_cfg_loan" id="menu_cstore_cfg_loan_prooftype" action="action_account_loan_proof_form"/>
