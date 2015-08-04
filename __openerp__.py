@@ -35,6 +35,7 @@
     * Dynamic Interest Rates Calculation
     """,
     "init_xml" : [],
+    "data": ["security/ir.model.access.csv",],
     "demo_xml" : [
         "loan_demo.xml"
     ],
