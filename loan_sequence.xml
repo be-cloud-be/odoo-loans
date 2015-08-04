@@ -2,10 +2,6 @@
 <openerp>
     <data noupdate="1">
 
-	    <record model="ir.sequence.type" id="seq_account_loan_order">
-		    <field name="name">Loan Number</field>
-		    <field name="code">loan.number</field>
-	    </record>
 	    <record model="ir.sequence" id="seq_account_loan">
 		    <field name="name">Loan Number</field>
 		    <field name="code">loan.number</field>
@@ -14,10 +10,6 @@
 		    <field name="suffix">/%(year)s</field>
 	    </record>
 
-	    <record model="ir.sequence.type" id="account_loan_autoid">
-		    <field name="name">Loan Id</field>
-		    <field name="code">loan.id</field>
-	    </record>
 	    <record model="ir.sequence" id="seq_account_loan_autoid">
 		    <field name="name">Loan Id</field>
 		    <field name="code">loan.id</field>
